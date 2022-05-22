@@ -1,0 +1,89 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: Helvetica, sans-serif, Century Gothic;
+}
+body{
+
+	background-image: url("2.png");
+	background-repeat: no-repeat;
+	background-size:100%;
+}
+
+#header{
+  
+  text-align: center;
+  	font-family:times;
+}
+
+#title{
+	  font-family:lucida console;
+      color: white;
+	  padding:20px;
+	  text-align: center;
+   }
+   
+#date{
+padding-top:30px;
+color:white;
+   }
+
+#content{
+	padding:200px;
+	text-align:center;
+	margin:0px;
+}
+
+#confirmed{
+	width:30.333%;
+	height:120px;
+	float:left;
+	background-color:blue;
+	color:white;
+	border:black;
+	margin-right:47px;
+	margin-left:0px;
+	text-align:center;
+}
+#death{
+	width:30.333%;
+	height:120px;
+	background-color:red;
+	float:left;
+	color:white;
+	border:black;
+	margin-right:5px;
+	margin-left:5px;
+}
+#recovered{
+	width:30.333%;
+	height:120px;
+	float:right;
+	background-color:green;
+    color:white;
+	border:black;
+	margin-right:0px;
+	margin-left:15px;
+}
+/* Add a black background color to the navigation(here top navigation) */
+#navigation{
+	background-color:#10132e;
+	overflow:hidden;
+}
+/* Style the links inside the navigation bar */
+a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* Change the color of links on hover */
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
